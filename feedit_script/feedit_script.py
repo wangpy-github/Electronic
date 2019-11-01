@@ -2,12 +2,11 @@ import random
 import jsonpath
 import requests
 
-num = 0
+
 rec_id_str = str()
 
-
 # 将商品加入购物车，并获取购物车id
-def creat_cart(creat_cart_url, feed_token, number):
+def creat_cart(num, creat_cart_url, feed_token, number):
     goods_id = random.randint(1118, 1947)
     url = creat_cart_url
     json = {
@@ -27,14 +26,13 @@ def creat_cart(creat_cart_url, feed_token, number):
         print("添加到购物车失败")
 
     if status == 1:
-        global num
         num += 1
         if num == number:
             return
         else:
-            creat_cart(creat_cart_url, feed_token, number)
+            creat_cart(num, creat_cart_url, feed_token, number)
     else:
-        creat_cart(creat_cart_url, feed_token, number)
+        creat_cart(num, creat_cart_url, feed_token, number)
 
 
 # 用户下单，并生成订单号

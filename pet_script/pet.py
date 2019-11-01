@@ -73,7 +73,7 @@ class Pet(object):
     def get_order(self):
         url4 = "https://app.majigo.net/order/goods"
         addressId = random.choice(
-            [1024, 1025, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1023])  # TODO   地址随机
+            [1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1023, 1024, 1025])  # TODO   地址随机
         if goodsData:
             json4 = {
                 "ticket": self.ticket,
@@ -112,6 +112,8 @@ def login():
         print(msg)
     except:
         print("小站用户登录失败")
+
+
 # 发货
 def send():
     send_url = "http://app.majigo.net/admin_order/post"
@@ -121,25 +123,26 @@ def send():
         "express_com": "yt",
         "express_no": express_no,
         "remark": "货物已发，请注意查收",
-        "orderId":order_id
+        "orderId": order_id
     }
     try:
         response_data = session.post(url=send_url, data=form_data_login).json()
-        msg = jsonpath.jsonpath(response_data,"$.msg")
+        msg = jsonpath.jsonpath(response_data, "$.msg")
         print(msg)
     except:
         print("订单发货异常")
+
 
 # 确认收货
 def recive(ticket):
     recive_url = "https://app.majigo.net/order/getGoodsExpress"
     json = {
-        "orderId" : order_id,
-        "ticket" : ticket
+        "orderId": order_id,
+        "ticket": ticket
     }
     try:
         response_data = requests.post(url=recive_url, json=json).json()
-        msg = jsonpath.jsonpath(response_data,"$.msg")
+        msg = jsonpath.jsonpath(response_data, "$.msg")
         print(msg)
     except:
         print("确认收货异常")

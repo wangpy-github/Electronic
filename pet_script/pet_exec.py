@@ -17,4 +17,4 @@ while True:
     login()
     send()
     recive(ticket)
-    input("请确认是否收货成功！！")
+    # input("请确认是否收货成功！！")
