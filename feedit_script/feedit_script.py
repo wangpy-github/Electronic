@@ -49,15 +49,12 @@ def down_order(down_order_url, feed_token):
             "token": feed_token,
             "shipping_id": 3
         }
-    else:
-        print("没有购物车ID")
-
-    try:
-        response = requests.post(url, json=json)
-        response_data = response.json()
-    except Exception as e:
-        print(e)
-        print("订单接口获取数据失败")
+        try:
+            response = requests.post(url, json=json)
+            response_data = response.json()
+        except Exception as e:
+            print(e)
+            print("订单接口获取数据失败")
     if response_data:
         order_sn = jsonpath.jsonpath(response_data, '$.data.order_info.order_sn')
         order_amount = jsonpath.jsonpath(response_data, '$.data.order_info.order_amount')
@@ -123,7 +120,7 @@ class login_order_exec():
                 data = session.post(url=confirm_receipt_url, json=json_order)
                 response_data = data.json()
                 status = jsonpath.jsonpath(response_data, '$.status.succeed')
-                print("订单操作状态", status)
+                print("B端订单操作状态", status)
             except:
                 print("B端订单操作失败")
         return
@@ -137,7 +134,7 @@ class login_order_exec():
                 data = session.post(url=detail_url, json=json_detail)
                 response_data = data.json()
                 status = jsonpath.jsonpath(response_data, '$.data.label_order_status')
-                print("B端订单操作最终状态：", status)
+                print("B端订单操作状态：", status)
             except:
                 print("查看详情失败")
         return
