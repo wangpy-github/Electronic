@@ -3,7 +3,7 @@ import feedit_script
 # token
 feed_token = "1f398757fdae92f5b4c3fa39971e9c7b0c5bc2ab"
 # 加入购物车的商品数量
-number = 4
+number = 3
 # B端登陆账号密码
 mobile = "17739792833"
 password = "123456"
