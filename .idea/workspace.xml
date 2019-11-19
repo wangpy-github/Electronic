@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4a98b9d-cfa4-4b2e-a383-00e9c487a015" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Electronic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Electronic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s_d/feedit.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/s_d/feedit.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s_d/麻吉.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/s_d/麻吉.xlsx" afterDir="false" />
@@ -25,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pet_script/pet_exec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            <state relative-caret-position="243">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -56,11 +54,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1273" />
+    <option name="y" value="262" />
+    <option name="width" value="512" />
+    <option name="height" value="464" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -73,6 +71,11 @@
             <path>
               <item name="Electronic" type="b2602c69:ProjectViewProjectNode" />
               <item name="Electronic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Electronic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Electronic" type="462c0819:PsiDirectoryNode" />
+              <item name="feedit_script" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -307,21 +310,23 @@
       <workItem from="1574047624818" duration="4082000" />
       <workItem from="1574056679201" duration="76000" />
       <workItem from="1574062783175" duration="824000" />
+      <workItem from="1574137579143" duration="3661000" />
+      <workItem from="1574150170115" duration="1737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50409000" />
+    <option name="totallyTimeSpent" value="55807000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657082" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47155362" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47071582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -345,9 +350,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Electronic$pet.coverage" NAME="pet Coverage Results" MODIFIED="1573724399428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pet_script" />
-    <SUITE FILE_PATH="coverage/Electronic$pet_exec.coverage" NAME="pet_exec Coverage Results" MODIFIED="1574062792694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pet_script" />
+    <SUITE FILE_PATH="coverage/Electronic$pet_exec.coverage" NAME="pet_exec Coverage Results" MODIFIED="1574152008471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pet_script" />
     <SUITE FILE_PATH="coverage/Electronic$a.coverage" NAME="a Coverage Results" MODIFIED="1573718603636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Electronic$feed_exce.coverage" NAME="feed_exce Coverage Results" MODIFIED="1574047638912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/feedit_script" />
+    <SUITE FILE_PATH="coverage/Electronic$feed_exce.coverage" NAME="feed_exce Coverage Results" MODIFIED="1574137645135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/feedit_script" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/feedit_script/feedit_script.py">
@@ -369,24 +374,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/aa.txt" />
     <entry file="file://$PROJECT_DIR$/feedit_script/feed_exce.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="54">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pet_script/pet_exec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        <state relative-caret-position="243">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
