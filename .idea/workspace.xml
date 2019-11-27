@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a4a98b9d-cfa4-4b2e-a383-00e9c487a015" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet_script/pet_exec.py" beforeDir="false" afterPath="$PROJECT_DIR$/pet_script/pet_exec.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s_d/feedit.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/s_d/feedit.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s_d/麻吉.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/s_d/麻吉.xlsx" afterDir="false" />
     </list>
@@ -24,17 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pet_script/pet_exec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feedit_script/feed_exce.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="216">
+              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -65,10 +55,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="47" />
+    <option name="y" value="22" />
+    <option name="width" value="1820" />
+    <option name="height" value="998" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -339,16 +329,19 @@
       <workItem from="1574736902626" duration="2010000" />
       <workItem from="1574746158553" duration="1369000" />
       <workItem from="1574751486083" duration="1057000" />
+      <workItem from="1574818211293" duration="1060000" />
+      <workItem from="1574832371706" duration="1536000" />
+      <workItem from="1574838505199" duration="2382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80497000" />
+    <option name="totallyTimeSpent" value="85475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1609808" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16577825" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -377,9 +370,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Electronic$pet.coverage" NAME="pet Coverage Results" MODIFIED="1573724399428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pet_script" />
-    <SUITE FILE_PATH="coverage/Electronic$pet_exec.coverage" NAME="pet_exec Coverage Results" MODIFIED="1574752240990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pet_script" />
+    <SUITE FILE_PATH="coverage/Electronic$pet_exec.coverage" NAME="pet_exec Coverage Results" MODIFIED="1574841812544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pet_script" />
     <SUITE FILE_PATH="coverage/Electronic$a.coverage" NAME="a Coverage Results" MODIFIED="1574219388336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Electronic$feed_exce.coverage" NAME="feed_exce Coverage Results" MODIFIED="1574736914620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/feedit_script" />
+    <SUITE FILE_PATH="coverage/Electronic$feed_exce.coverage" NAME="feed_exce Coverage Results" MODIFIED="1574818237296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/feedit_script" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../a.txt" />
@@ -409,17 +402,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pet_script/pet_exec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/feedit_script/feed_exce.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet_script/pet_exec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
