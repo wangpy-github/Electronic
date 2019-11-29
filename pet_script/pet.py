@@ -96,6 +96,7 @@ class Pet(object):
             print("没有组合数据")
 
 
+session = requests.session()
 # 后台订单状态操作
 def login():
     login_url = "http://app.majigo.net/admin_index/login"
@@ -105,8 +106,6 @@ def login():
         "online": ""
     }
     try:
-        global session
-        session = requests.session()
         response_data = session.post(url=login_url, data=form_data_login).json()
         msg = jsonpath.jsonpath(response_data, "$.msg")
         print(msg)
