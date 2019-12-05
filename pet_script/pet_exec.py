@@ -7,15 +7,17 @@ while True:
     pet = Pet(goods_num, ticket)
     for i in range(num):
         pet.goods_detail()
+        time.sleep(1)
         pet.add_cart()
 
     pet.get_goods_cart_list()
+    time.sleep(1.5)
     pet.get_order()
 
     input("请确认是否已经付钱？？：")
 
     login()
-    time.sleep(1.5)
+    time.sleep(2)
     send()
     recive(ticket)
     # input("请确认是否收货成功！！")
