@@ -43,7 +43,7 @@ while True:
     feedit_script.recived(feed_token, operation_url, Received_url)
     obj.is_confirm(detail_url)
 
-    tim = random.randint(2, 10)
-    print("等待{}分钟...".format(str(tim)))
-    time.sleep(int(tim)*60)
+    tim = random.randint(1, 3)
+    print("等待{}分钟...".format(tim))
+    time.sleep(tim*60)
 

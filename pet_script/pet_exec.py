@@ -1,5 +1,4 @@
 import random
-
 from pet_script.pet import Pet, login, send, recive
 import time
 ticket = "xQRFZoF0slMhC_ay4mBvxkxah96uuI4Vs5Q_c_c"
@@ -7,6 +6,11 @@ goods_num = 1  # 每件商品购买的数量
 while True:
     num = random.randint(1, 3)
     print("--本-次-商-品-数-量--:", num)
+
+    tim = random.randint(1, 4)
+    print("等待{}分钟...".format(tim))
+    time.sleep(tim*60)
+
     pet = Pet(goods_num, ticket)
     for i in range(num):
         pet.goods_detail()
@@ -21,6 +25,3 @@ while True:
     time.sleep(1.5)
     send()
     recive(ticket)
-    tim = random.randint(2, 10)
-    print("等待{}分钟...".format(str(tim)))
-    time.sleep(int(tim)*60)
