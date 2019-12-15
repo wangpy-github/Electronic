@@ -7,9 +7,9 @@ while True:
     num = random.randint(1, 3)
     print("--本-次-商-品-数-量--:", num)
 
-    tim = random.randint(1, 4)
-    print("等待{}分钟...".format(tim))
-    time.sleep(tim*60)
+    # tim = random.randint(1, 4)
+    # print("等待{}分钟...".format(tim))
+    # time.sleep(tim*60)
 
     pet = Pet(goods_num, ticket)
     for i in range(num):
