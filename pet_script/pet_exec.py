@@ -5,7 +5,7 @@ from pet import Pet, login, send, recive
 ticket = "xQRFZoF0slMhC_ay4mBvxkxah96uuI4Vs5Q_c_c"
 goods_num = 1  # 每件商品购买的数量
 while True:
-    num = 3  # random.randint(1, 3)
+    num = 2
     print("--本-次-商-品-数-量--:", num)
 
     # tim = random.randint(1, 3)
