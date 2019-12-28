@@ -24,5 +24,5 @@ while True:
 
     login()
     time.sleep(1.5)
-    send()
-    recive(ticket)
+    # send()
+    # recive(ticket)
