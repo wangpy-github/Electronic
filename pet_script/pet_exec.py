@@ -1,6 +1,6 @@
 import random
 import time
-from pet import Pet, login, send, recive
+from pet_script.Pet.pet import Pet, login, send, recive
 
 ticket = "xQRFZoF0slMhC_ay4mBvxkxah96uuI4Vs5Q_c_c"
 goods_num = 1  # 每件商品购买的数量
