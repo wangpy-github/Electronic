@@ -6,7 +6,7 @@ ticket = "xQRFZoF0slMhC_ay4mBvxkxah96uuI4Vs5Q_c_c"
 goods_num = 1  # 每件商品购买的数量
 while True:
     # num = random.randint(1, 2)
-    num = 2
+    num = 3
     print("--本-次-商-品-数-量--:", num)
 
     # tim = random.randint(1, 3)
@@ -22,6 +22,8 @@ while True:
     pet.get_order()
 
     input("请确认是否已经付钱？？：")
+    # print("------------")
+    # time.sleep(300)
 
     # login()
     # time.sleep(1.5)
